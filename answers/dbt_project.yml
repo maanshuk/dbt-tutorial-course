@@ -23,6 +23,7 @@ target-path: "target"  # directory which will store compiled SQL files
 clean-targets:         # directories to be removed by `dbt clean`
   - "target"
   - "dbt_packages"
+  - "logs"
 
 # At the start of any dbt process, this will run the get_brand_name() macro in macros/macro_get_brand_name.sql
 # which will create a User Defined Function (UDF) in our schema in BigQuery
