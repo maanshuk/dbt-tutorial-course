@@ -1,0 +1,2 @@
+dbt run-operation generate_base_model --profiles-dir "C:/Users/mshuk/.dbt" --args '{"source_name": "thelook_ecommerce", "table_name": "users"}'
+dbt run-operation generate_model_yaml --profiles-dir "C:/Users/mshuk/.dbt" --args '{"model_names": ["stg_ecommerce_users"]}'
